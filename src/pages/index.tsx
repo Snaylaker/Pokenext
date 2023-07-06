@@ -1,7 +1,7 @@
 import { Inter } from 'next/font/google'
 import { Button } from '@/components/ui/button'
 import { useQuery} from '@apollo/client';
-import { GET_GEN1 } from './queries';
+import { GET_GEN1 } from '../server/queries';
 
 const inter = Inter({ subsets: ['latin'] })
 
