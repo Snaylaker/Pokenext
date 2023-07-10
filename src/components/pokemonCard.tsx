@@ -2,7 +2,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter }
 import Image from 'next/image'
 
 export default function PokemonCard({ name, id }: { name: string, id: string }) {
-    return <Card>
+    return <Card className="my-4">
         <CardHeader>
             <CardTitle>{name}</CardTitle>
             <CardDescription>Card Description</CardDescription>
@@ -10,8 +10,8 @@ export default function PokemonCard({ name, id }: { name: string, id: string }) 
         <CardContent>
             <Image
                 src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`}
-                width={500}
-                height={500}
+                width={200}
+                height={200}
                 alt="Picture of the author"
             />
             <p>Card Content</p>
