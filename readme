@@ -1,2 +1,12 @@
 Next time just make sure to get all Data based on a pokedex 
 https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/.png
+things i struggleed with
+how the hell do you add types ?
+I tried to generate types following devrel article didnt work :sad: 
+I tried multiple libs and it didnt work 
+I didnt understand how to properly get the nested elements like i can get the pokemon id and sprite but i need to make an other request 
+to get the rest of the info
+
+learnings :
+maybe trying to learn graphql on the fly wasnt the best idea
+and since this is me building stuff i should probably get the project started with technologies im already familiar with first to know what i will be building and from then try to swap parts of the stack with some hot new tech.otherwise its superdemotivating.

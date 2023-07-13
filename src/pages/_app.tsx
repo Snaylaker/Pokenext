@@ -2,10 +2,9 @@ import '@/styles/globals.css'
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client'
 import type { AppProps } from 'next/app'
 const client = new ApolloClient({
-  uri: 'https://beta.pokeapi.co/graphql/v1beta',
-  cache: new InMemoryCache(),
-});
-
+    uri: 'https://graphql-pokeapi.graphcdn.app/',
+    cache: new InMemoryCache(),
+  });
 export default function App({ Component, pageProps }: AppProps) {
   return <ApolloProvider client={client}>
   <Component {...pageProps} />
